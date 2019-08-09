@@ -1,7 +1,7 @@
 FROM golang:alpine
 MAINTAINER "Hibri Marzook <hibri@hibri.net>"
 
-ENV TERRAFORM_VERSION=0.12.5
+ENV TERRAFORM_VERSION=0.12.6
 
 RUN apk add --update git bash openssh
 
